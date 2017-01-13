@@ -1,0 +1,89 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  background: #fff url(../images/bgtile.png) repeat-x;
+}
+h1,
+li{
+  color: #06365f;
+}
+
+div.page-content{
+  width: 900px;
+  margin: 169px auto;
+  position: relative;
+}
+section.content{
+  background: url("../images/frame.png") no-repeat;
+  padding: 10px;
+}
+.phone{
+  width: initial;
+  float: left;
+  position: absolute;
+  top: -30%;
+  right: 45%;
+  }
+.title,
+.content{
+  display: inline;
+  float: right;
+  width: 40%;
+  overflow: hidden;
+  clear: both;
+  position: relative;
+}
+.app-store,
+.google-play{
+  display: inline-block;
+  margin-right: 16px;
+  margin-top: 10px;
+}
+.insta-icon img{
+  width: 60%;
+}
+.inta-login{
+  position: absolute;
+  color: white;
+  backface-visibility: hidden;
+  top: 0;
+  right: 0;
+  width: 30%;
+  display: inline-block;
+  padding-top: 5px;
+  padding-left: 10px;
+  margin-top: 12px;
+}
+.inta-login p {
+    width: 50px;
+    margin: 0;
+    float: right;
+
+}
+.bottom{
+  clear: both;
+  text-align: right;
+}
+ul{
+  clear: both;
+  display: right;
+  text-align: right;
+  list-style: none;
+}
+li a{
+  text-decoration: none;
+  color: #3a6890;
+}
+li{
+  text-transform: uppercase;;
+  display: inline;
+  color:grey;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 6px;
